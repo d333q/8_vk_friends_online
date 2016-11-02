@@ -10,7 +10,7 @@ def get_user_login():
 
 
 def get_user_password():
-    return getpass.getpass()
+    return getpass.getpass('Password: ')
 
 
 def get_online_friends(login, password):
