@@ -6,7 +6,7 @@ APP_ID = 5673982
 
 
 def get_user_login():
-    return input('Login ')
+    return input('Login: ')
 
 
 def get_user_password():
